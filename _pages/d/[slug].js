@@ -23,7 +23,6 @@ export default function Detail(props) {
 }
 
 export const getStaticProps = (ctx) => {
-  console.log('asdfasdf', ctx);
   return {
     props: {
       slug: ctx.params.slug || null,
