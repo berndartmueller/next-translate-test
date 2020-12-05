@@ -21,6 +21,12 @@ export default function Home() {
           {t('home:description')} <code>_pages/index.js</code>
         </p>
 
+        <Link href="/d/first">
+          <a>
+            <h3>Go to First</h3>
+          </a>
+        </Link>
+
         <div className="grid">
           <Link href="/" locale="en">
             <div className="card">
