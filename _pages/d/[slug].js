@@ -38,7 +38,7 @@ export const getStaticPaths = async ({ locales }) => {
     paths.push({ locale, params: { slug: 'first' } });
     paths.push({ locale, params: { slug: 'second' } });
   });
-  console.log(paths);
+
   return {
     paths,
     fallback: true,
