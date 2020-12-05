@@ -23,7 +23,7 @@ export default function Home() {
 
         <Link href="/d/first">
           <a>
-            <h3>Go to First</h3>
+            <h3>Go to First page</h3>
           </a>
         </Link>
 
